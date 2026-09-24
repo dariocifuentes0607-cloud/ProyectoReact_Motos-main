@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title":"Ducati Streetfighter V4",
+        "descripcion":"Una de las hyper naked más radicales. Utiliza un V4 Desmosedici Stradale de 1.103 cc, capaz de entregar 214 CV y 120 Nm. Lleva cambio rápido Ducati Quick Shift, IMU de 6 ejes y un paquete electrónico muy completo con control de tracción, wheelie control, slide control y diferentes modos de conducción. La versión S baja hasta 189 kg sin combustible.",
+        "img":"https://media.zigcdn.com/media/model/2024/Mar/ducati-streetfighter-v4-std-right-side-view_600x400.jpg",
+        "color":"white",
+        "precio":"Precio aproximado: $80.000.000"
+    },
+    {
+        "id": 2,
+        "title": "Aprilia Tuono V4 Factory",
+        "descripcion":"Una auténtica máquina italiana. Su V4 de 1.077 cc desarrolla 175 CV a 11.350 rpm y 121 Nm a 9.000 rpm. Además incorpora suspensión electrónica Öhlins Smart EC 2.0, frenos Brembo y un sistema electrónico APRC con control de tracción, wheelie control, launch control y varios modos de conducción. Su peso en orden de marcha es de 209 kg.",
+        "img":"https://tse2.mm.bing.net/th/id/OIP.Jr5_fXxnr5uEsCdiGt7yRgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "color":"red",
+        "precio":"Precio aproximado: $76.000.000"  
+    },
+    {
+        "id": 3,
+        "title":"BMW M 1000 R",
+        "descripcion":"La versión M lleva el concepto naked de BMW al extremo. Su motor de 999 cc y cuatro cilindros ronda los 210 CV, con un peso cercano a los 200 kg dependiendo de configuración. Es básicamente una superbike de BMW llevada a una posición de conducción más desnuda y agresiva.",
+        "img":"https://soymotero.net/wp-content/uploads/2022/01/nueva_bmw_m1000r-696x464.jpg",
+        "color":"white",
+        "precio":"Precio aproximado: $85.000.000"
+    },
+    {
+        "id": 4,
+        "title":"KTM 1390 Super Duke R EVO",
+        "descripcion":"Esta es la bestia del torque. Su enorme V-Twin de 1.350 cc desarrolla aproximadamente 190 CV y 145 Nm. Ese par es precisamente lo que hace que la Super Duke tenga una personalidad tan salvaje. En la versión EVO se combina con electrónica avanzada y suspensión WP de alto nivel.",
+        "img":"https://s1.cdn.autoevolution.com/images/news/gallery/2024-ktm-1390-super-duke-r-is-the-new-definition-of-naked-motorcycle-coolness_10.jpg",
+        "color":"red",
+        "precio":"Precio aproximado: $78.000.000"
+    },
+    {
+        "id": 5,
+        "title":"Kawasaki Z H2",
+        "descripcion":"La Kawasaki Z H2 es una naked de alto rendimiento con un motor sobrealimentado de 998 cc que produce alrededor de 200 CV y 137 Nm. Su diseño agresivo y su tecnología avanzada, incluyendo control de tracción y modos de conducción, la hacen una opción emocionante para los entusiastas de las motocicletas.",
+        "img":"https://www.moto1pro.com/sites/default/files/kawasaki-z-h2-2020.jpg",
+        "color":"white",
+        "precio":"Precio aproximado: $82.000.000"
+    },
+    {
+        "id": 6,
+        "title":"Yamaha MT-10",
+        "descripcion":"La Yamaha MT-10 es una naked deportiva con un motor de 998 cc que entrega aproximadamente 160 CV y 111 Nm. Su diseño agresivo y su chasis ligero la hacen ágil y divertida de conducir, con tecnología avanzada como control de tracción y modos de conducción.",
+        "img":"https://soymotero.net/wp-content/uploads/2018/09/2016-Yamaha-MT-10-EU-Night-Fluo-Studio-002.jpg",
+        "color":"red",
+        "precio":"Precio aproximado: $75.000.000"
+    },
+    {
+        "id": 7,
+        "title":"Suzuki GSX-S1000",
+        "descripcion":"La Suzuki GSX-S1000 es una naked deportiva con un motor de 999 cc que produce alrededor de 150 CV y 106 Nm. Su diseño agresivo y su chasis ligero la hacen ágil y divertida de conducir, con tecnología avanzada como control de tracción y modos de conducción.",
+        "img":"https://moto.suzuki.es/storage/images/hezrqxeraxzijc7o7ay1hgd3wve0f0jw3vgihe6a.jpg",
+        "color":"white",
+        "precio":"Precio aproximado: $70.000.000"
+    },
+    {
+        "id": 8,
+        "title":"Honda CB1000R",
+        "descripcion":"La Honda CB1000R es una naked deportiva con un motor de 998 cc que entrega aproximadamente 143 CV y 104 Nm. Su diseño elegante y su chasis ligero la hacen ágil y divertida de conducir, con tecnología avanzada como control de tracción y modos de conducción.",
+        "img":"https://soymotero.net/wp-content/uploads/2018/09/honda-cb-1000-r-verde.jpg",
+        "color":"red",
+        "precio":"Precio aproximado: $72.000.000"
+    }
+]

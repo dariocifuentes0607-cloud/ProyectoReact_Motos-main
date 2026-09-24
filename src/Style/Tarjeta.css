@@ -1,0 +1,38 @@
+
+.Centrar{   /* Contendor pequeño */
+    display: flex;
+    flex-direction: row;
+    width: 60%; /* se maneja en porcentajes para que se acople a cualquier pantalla */
+    height: 200px;
+    gap: 10px; /* espacio entre la imagen y el texto */
+}
+
+.Orde{
+    flex-direction: column;
+}
+
+.CentrarC{  /* Contenedor grande */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.titulo-html { /* Estilo para el titulo Principal */
+    text-align: center;
+    color: #020202;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+body {
+    background-color: #fcfcfc; /* Fondo de la pagina */
+    color: #070707;            /* Texto color */
+    margin: 0;
+    padding: 20px 0;
+}
