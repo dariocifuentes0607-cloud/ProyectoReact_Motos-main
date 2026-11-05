@@ -1,25 +1,48 @@
-
-.Centrar{   /* Contendor pequeño */
+.Centrar { /* Contenedor pequeño: la tarjeta (imagen + texto) */
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* imagen a la izquierda, texto a la derecha */
+    align-items: center; /* centra el contenido verticalmente */
     width: 60%; /* se maneja en porcentajes para que se acople a cualquier pantalla */
-    height: 200px;
-    gap: 10px; /* espacio entre la imagen y el texto */
+    min-height: 200px;
+    gap: 20px; /* espacio entre la imagen y el texto */
+    padding: 16px; /* espacio interno de la tarjeta */
+    border-radius: 16px; /* bordes redondeados */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2); /* sombra suave */
+    transition: transform 0.2s, box-shadow 0.2s; /* animación suave al pasar el mouse */
 }
 
-.Orde{
+.Centrar:hover { /* Efecto al pasar el mouse sobre la tarjeta */
+    transform: translateY(-4px); /* la tarjeta sube un poquito */
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3); /* la sombra se hace más fuerte */
+}
+
+.Centrar img { /* Foto de la moto: mismo tamaño en todas */
+    width: 220px;
+    height: 170px;
+    object-fit: cover; /* recorta la imagen para que no se deforme */
+    border-radius: 12px;
+}
+
+.Orde { /* Columna de texto: título, descripción y precio */
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 8px; /* espacio entre título, descripción y precio */
 }
 
-.CentrarC{  /* Contenedor grande */
+.Orde > * {
+    margin: 0; /* quita los márgenes por defecto para que el gap sea parejo */
+}
+
+.CentrarC { /* Contenedor grande: centra cada tarjeta en la página */
     width: 100%;
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
+    margin: 18px 0; /* espacio entre una tarjeta y otra */
 }
 
-
+/* ===== TÍTULO Y FONDO DE LA PÁGINA ===== */
 .titulo-html { /* Estilo para el titulo Principal */
     text-align: center;
     color: #020202;
@@ -27,12 +50,34 @@
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.5px; /* separación entre letras */
 }
 
 body {
-    background-color: #fcfcfc; /* Fondo de la pagina */
-    color: #070707;            /* Texto color */
+    background: linear-gradient(135deg, #e0eafc, #cfdef3 50%, #f5d9e8); /* degradado suave azul a rosa */
+    background-attachment: fixed; /* el degradado no se corta ni se repite al hacer scroll */
+    min-height: 100vh; /* el fondo cubre toda la pantalla */
+    color: #070707; /* Texto color */
     margin: 0;
     padding: 20px 0;
+}
+
+.boton-imagen { /* Contenedor del botón: lo centra en la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; /* el ancho se ajusta al tamaño de la imagen */
+    margin: 20px auto; /* auto a los lados = centrado horizontal */
+}
+
+.boton-imagen img { /* Imagen del botón: pequeña y del mismo tamaño */
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* evita que la imagen se deforme */
+    border-radius: 12px;
+    transition: transform 0.2s; /* animación suave del zoom */
+}
+
+.boton-imagen img:hover { /* Efecto al pasar el mouse sobre el botón */
+    transform: scale(1.5); /* la imagen crece*/
 }

@@ -1,22 +1,91 @@
-.formulario {
-    width: 300px;
+.formulario { /* Caja principal del formulario */
+    width: 340px;
+    max-width: 90%; /* en pantallas pequeñas no se sale */
     margin: 50px auto;
-    padding: 20px;
-    border: 1px solid black;
+    padding: 28px;
+    background: #ffffff;
+    border: none;
+    border-radius: 16px; /* bordes redondeados */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* sombra suave */
 }
 
-.formulario input {
+.formulario h2 { /* Título "Formulario" */
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #203a43;
+}
+
+.campo { /* Cada grupo etiqueta + input */
+    display: flex;
+    flex-direction: column; /* etiqueta arriba, input abajo */
+    margin-bottom: 14px;
+}
+
+.campo label { /* Etiqueta de cada campo */
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.formulario input { /* Cajas de texto */
     width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box; /* el padding no hace crecer el ancho */
+    border: 1px solid #ccd3da;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.formulario input:focus { /* Cuando haces clic dentro del campo */
+    border-color: #2c5364;
+    box-shadow: 0 0 0 3px rgba(44, 83, 100, 0.2); /* resplandor alrededor */
 }
 
 .boton {
     width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: blue;
+    padding: 12px;
+    margin-top: 6px;
+    background: linear-gradient(135deg, #2c5364, #203a43); /* degradado azul petróleo */
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
     border: none;
+    border-radius: 8px;
+    cursor: pointer; /* manito al pasar el mouse */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.boton:hover { /* Efecto al pasar el mouse */
+    transform: translateY(-2px); /* sube un poquito */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.boton:active { /* Efecto al hacer clic */
+    transform: translateY(0);
+}
+
+.boton-imagen { /* Contenedor del botón: lo centra en la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.boton-imagen img { /* Imagen del botón: pequeña y del mismo tamaño */
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.boton-imagen img:hover { /* Efecto al pasar el mouse */
+    transform: scale(1.5);
 }
